@@ -1,33 +1,17 @@
 import React from "react";
-import Layout from "./components/layout"
+import Layout from "./components/layout";
+import Profile from "./components/profile";
 
-function App() {
+const App = () => {
   return (
     <main>
       <Layout>
-        <div>
-          <img source="https://avatars.githubusercontent.com/u/39008435?v=4" alt="Avatar of user" />
-          <h1>Nome</h1>
-          <h3>Username:</h3>
-          <span>username</span>
-          <div>
-            <h4>Followers</h4>
-            <span>5</span>
-          </div>
-          <div>
-            <h4>Starreds</h4>
-            <span>5</span>
-          </div>
-          <div>
-            <h4>Followings</h4>
-            <span>5</span>
-          </div>
-        </div>
+        <Profile />
         <div>Repositories</div>
         <div>Starreds</div>
       </Layout>
     </main>
   );
-}
+};
 
 export default App;

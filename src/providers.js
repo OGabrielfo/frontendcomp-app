@@ -11,5 +11,7 @@ const Providers = () => {
                 <App />
             </GithubProvider>
         </main>
-    )
-}
+    );
+};
+
+export default Providers;
